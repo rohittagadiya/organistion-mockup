@@ -1,0 +1,68 @@
+
+
+@mixin OpenSans {
+  font-family: OpenSans, sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+@mixin OpenSans-BTN {
+  font-family: OpenSans, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  border: unset;
+  cursor: pointer;
+  color: $white;
+  background-color: $opportunity-investment;
+}
+@mixin OpenSans-Bold {
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+}
+@mixin HelveticaNeue {
+  font-family: OpenSans, sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+@mixin HelveticaNeue-Bold {
+  font-family: HelveticaNeue-Bold, sans-serif;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+}
+@mixin HelveticaNeue-Title($c) {
+  font-family: HelveticaNeue, sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  color: $c;
+}
+@mixin HelveticaNeue-SubTitle($c) {
+  font-family: HelveticaNeue, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  color: $c;
+}
+@mixin HelveticaNeue-Text($c) {
+  font-family: HelveticaNeue,sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  color: $c;
+}
+
